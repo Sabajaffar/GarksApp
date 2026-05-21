@@ -12,55 +12,58 @@
     "backend": "tsx server.ts"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
+    "expo": "~52.0.46",
+    "expo-status-bar": "~2.0.1",
+    "expo-haptics": "~14.0.1",
+    "expo-font": "~13.0.3",
+    "expo-splash-screen": "~0.29.21",
+    "expo-constants": "~17.0.8",
+    "@expo-google-fonts/playfair-display": "^0.3.0",
     "@expo-google-fonts/dm-sans": "^0.3.0",
     "@expo-google-fonts/ibm-plex-mono": "^0.3.0",
-    "@expo-google-fonts/playfair-display": "^0.3.0",
-    "@google/genai": "^2.4.0",
-    "@react-native-async-storage/async-storage": "1.23.1",
-    "@react-navigation/bottom-tabs": "^6.6.1",
     "@react-navigation/native": "^6.1.18",
+    "@react-navigation/bottom-tabs": "^6.6.1",
     "@react-navigation/native-stack": "^6.11.0",
-    "dotenv": "^16.4.5",
-    "expo": "~52.0.46",
-    "expo-constants": "~17.0.8",
-    "expo-font": "~13.0.3",
-    "expo-haptics": "~14.0.1",
-    "expo-splash-screen": "~0.29.21",
-    "expo-status-bar": "~2.0.1",
-    "express": "^4.19.2",
-    "lucide-react-native": "^0.475.0",
     "react": "18.3.1",
     "react-native": "0.76.9",
-    "react-native-chart-kit": "^6.12.0",
-    "react-native-gesture-handler": "~2.20.2",
-    "react-native-reanimated": "^3.17.0",
-    "react-native-safe-area-context": "4.12.0",
     "react-native-screens": "~4.4.0",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-reanimated": "~3.16.7",
     "react-native-svg": "15.8.0",
-    "tsx": "^4.7.1",
-    "zustand": "^5.0.3"
+    "react-native-chart-kit": "^6.12.0",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "zustand": "^5.0.3",
+    "lucide-react-native": "^0.475.0",
+    "@emailjs/browser": "^4.4.1",
+    "@google/genai": "^2.4.0",
+<<<<<<< HEAD
+    "expo-av": "~15.0.0",
+    "expo-speech": "~13.0.0",
+    "expo-document-picker": "~13.0.0",
+=======
+>>>>>>> 4643d9b29c5e3cb37083057970eb12338e563220
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "tsx": "^4.7.1"
   },
   "expo": {
     "doctor": {
       "reactNativeDirectoryCheck": {
-        "exclude": [
-          "react-native-chart-kit",
-          "@emailjs/browser",
-          "dotenv",
-          "express",
-          "tsx",
-          "@google/genai"
-        ],
+<<<<<<< HEAD
+        "exclude": ["react-native-chart-kit", "@emailjs/browser", "dotenv", "express", "tsx", "@google/genai", "expo-av", "expo-speech", "expo-document-picker"],
+=======
+        "exclude": ["react-native-chart-kit", "@emailjs/browser", "dotenv", "express", "tsx", "@google/genai"],
+>>>>>>> 4643d9b29c5e3cb37083057970eb12338e563220
         "listUnknownPackages": false
       }
     }
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
-    "@types/express": "^4.17.21",
-    "@types/node": "^20.11.24",
+    "typescript": "^5.7.3",
     "@types/react": "~18.3.12",
-    "typescript": "^5.7.3"
+"@types/express": "^4.17.21",
+    "@types/node": "^20.11.24"
   }
 }
